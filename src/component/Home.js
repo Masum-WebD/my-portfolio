@@ -14,6 +14,7 @@ const Home = () => {
            <Identity></Identity>
            <About></About>
            <Skills></Skills>
+           <Projects></Projects>
            <Contact></Contact>
            <Footer></Footer>
         </div>
