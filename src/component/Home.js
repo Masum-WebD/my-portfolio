@@ -3,6 +3,7 @@ import Identity from './Identity';
 import Navbar from './Navbar';
 import About from './About'
 import Skills from './Skills';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
            <Identity></Identity>
            <About></About>
            <Skills></Skills>
+           <Contact></Contact>
         </div>
     );
 };
