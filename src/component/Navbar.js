@@ -5,7 +5,7 @@ import img from '../Asset/logo.png'
 
 const Navbar = () => {
   return (
-    <div class="navbar px-10 bg-[#373737]">
+    <div class="navbar px-10 sticky top-0  bg-[#373737]">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -29,9 +29,9 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to='' className='uppercase'>About</Link>
-              <Link to='' className='uppercase'>Skill</Link>
-              <Link to='' className='uppercase'>Contact</Link>
+              <a   className='uppercase' href="#about">About</a>
+              <a   className='uppercase' href="#skill">Skill</a>
+              <a  className='uppercase' href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -43,16 +43,17 @@ const Navbar = () => {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
-             <Link to='' className='uppercase'>About</Link>
-              <Link to='' className='uppercase'>Skill</Link>
-              <Link to='' className='uppercase'>Contact</Link>
+            <a href=""></a>
+             <a  className='uppercase' href="#about">About</a>
+              <a  className='uppercase' href="#skill">Skill</a>
+              <a  className='uppercase' href="#contact">Contact</a>
           </li>
         </ul>
       </div>
       <div class="navbar-end">
-        <Link to='' class="btn bg-[#FF87B7] px-3 text-white" href=" ">
+        <a class="btn bg-[#FF87B7] px-3 text-white" href="https://drive.google.com/file/d/1VGXBmxlrrmhTnLM8xalywS_BGF3FTonE/view?usp=sharing" download='GFG' target='_blank'>
           RESUME
-        </Link>
+        </a>
       </div>
     </div>
   );

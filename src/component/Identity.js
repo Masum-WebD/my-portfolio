@@ -11,7 +11,7 @@ const Identity = () => {
                 <h1 className='text-[#FF87B7] text-3xl font-bold '>Web Developer</h1>
                 <p className='text-1xl font-bold'>Front End Developer || Web developer || React Developer</p>
                 <div className='mt-5'>
-                <Link to='' className='bg-[#FF87B7] text-black px-4 py-3 rounded mr-1  font-bold'> RESUME</Link>
+                <a  className='bg-[#FF87B7] text-black px-4 py-3 rounded mr-1  font-bold' href="https://drive.google.com/file/d/1VGXBmxlrrmhTnLM8xalywS_BGF3FTonE/view?usp=sharing" download='GFG' target='_blank'> RESUME</a>
                 <button class="btn btn-outline font-bold ">About Me</button>
                 </div>
             </div>
