@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from '../Assest/logo.png'
+import img from '../Asset/logo.png'
 
 
 const Navbar = () => {
@@ -50,8 +50,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <Link to='' class="btn bg-[#FF87B7] text-black" href=" ">
-         GEt RESUME
+        <Link to='' class="btn bg-[#FF87B7] px-3 text-white" href=" ">
+          RESUME
         </Link>
       </div>
     </div>
