@@ -15,6 +15,6 @@
         "id": 3,
         "name": "WareHouse Telecom Products",
         "img": "https://i.ibb.co/JrrHTbS/keytwo.png",
-        "description":"This site has shown products that are stored. Here you can increase the number of products and delete the product if you want. In this project I have used React Js on client side and firebase used for Authentication"
+        "description":"This site has shown products that are stored. Here you can increase the number of products and delete the product if you want. "
     }
 ]
