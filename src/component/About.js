@@ -3,7 +3,7 @@ import img from '../Asset/masum.png'
 
 const about = () => {
   return (
-    <div id="about" className="mx-20">
+    <div id="about" className="">
       <div className="flex justify-center mt-14">
         <h1 className="text-4xl text-white font-bold ">About me </h1>
         <div className="w-52 mt-7 ml-1 h-1 bg-[#FF87B7]"></div>

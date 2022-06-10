@@ -2,13 +2,14 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div id="skill">
+    
+    <div id="skill" className="  ">
       <div className="flex justify-center mt-14">
         <div className="w-52 mt-7 ml-1 h-1 bg-[#FF87B7]"></div>
         <h1 className="text-4xl text-white font-bold ">My Skill </h1>
 
       </div>
-      <div className=" ml-72 grid  lg:grid-cols-2 sm:grid-cols-1 ">
+      <div className=" grid place-items-center  lg:grid-cols-2 sm:grid-cols-1 ">
             <div className='mt-10 mr-10'>
                 <div className='mb-5'>
                 <p className='text-white font-bold text-2xl'>HTML</p>

@@ -2,12 +2,13 @@ import React from "react";
 
 const Contact = () => {
   return (
+    
     <div id="contact">
       <div className="flex justify-center mt-14 mb-10">
         <h1 className="text-4xl text-white font-bold  ">Contact</h1>
         <div className="w-52 mt-7 ml-1 h-1 bg-[#FF87B7]"></div>
       </div>
-      <div className='ml-72 grid lg:grid-cols-2 sm:grid-cols-1 mt-20'>
+      <div className=' grid place-items-center lg:grid-cols-2 sm:grid-cols-1 gap-3 mt-20'>
           <form action="https://formsubmit.co/418f72ce2a407f47a997379cc0d79f67 " method="POST"  >
           <input type="hidden" name="_next" value="http://localhost:3000/thanks.html"/>
           <input type="hidden" name="_subject" value="New submission!"/>
