@@ -61,7 +61,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           className="btn bg-[#FF87B7] px-3 text-white"
-          href="https://drive.google.com/file/d/1VGXBmxlrrmhTnLM8xalywS_BGF3FTonE/view?usp=sharing"
+          href="https://drive.google.com/file/d/1mTzp_TEzS612L4OLUAsDJmk0khjlEdo6/view?usp=sharing"
           download="GFG"
           target="_blank"
           rel="noreferrer"
