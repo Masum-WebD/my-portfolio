@@ -3,18 +3,21 @@
         "id": 1,
         "name": "Hardware industry",
         "img": "https://i.ibb.co/3rHg2LC/travel.png",
-        "description": "I have shown simple design in UI. Where we show some products,reviews, sales reports and some of our systems"
+        "description": "I have shown simple design in UI. Where we show some products,reviews, sales reports and some of our systems",
+        "liveLink":"https://celadon-travesseiro-543ef4.netlify.app/"
     },
     {
         "id": 2,
         "name": "Motocycle repaire",
         "img": "https://i.ibb.co/bgvvgZn/motocycle.png",
-        "description":"Here I have highlighted the different services of motorcycles . In this project I have used React Js on client side and firebase used for Authentication"
+        "description":"Here I have highlighted the different services of motorcycles . In this project I have used React Js on client side and firebase used for Authentication",
+        "liveLink":"https://motorcycle-repairing-hospital.web.app/"
     },
     {
         "id": 3,
         "name": "WareHouse Telecom Products",
         "img": "https://i.ibb.co/JrrHTbS/keytwo.png",
-        "description":"This site has shown products that are stored. Here you can increase the number of products and delete the product if you want. "
+        "description":"This site has shown products that are stored. Here you can increase the number of products and delete the product if you want. ",
+        "liveLink":"https://superb-babka-b4fcee.netlify.app/"
     }
 ]
